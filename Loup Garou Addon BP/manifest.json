@@ -1,0 +1,36 @@
+{
+	"format_version": 2,
+	"author": "Peteutyvy",
+	"header": {
+		"name": "Loup Garou BP",
+		"description": "Loup garouuuu",
+		"uuid": "975b5cb2-f146-4db2-9e75-76778e987330",
+		"version": [1, 0, 2],
+		"min_engine_version": [1, 21, 50]
+	},
+	"modules": [
+		{
+			"description": "",
+			"type": "data",
+			"uuid": "b4598668-c9c1-46e5-916f-6f4129eef826",
+			"version": [1, 0, 0]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "416e9119-8290-4c7e-9fb5-bea9b1c70a87",
+			"entry": "scripts/main.js",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "beta"
+		}
+	]
+}
